@@ -1,6 +1,6 @@
 <template>
   <header class="header-wrapper">
-    <img class="header-profile-picture" src="../assets/personal-picture.jpeg" width="150" height="150" />
+    <img class="header-profile-picture" src="../assets/personal-picture.jpeg" width="96" height="96" />
     <h1>Matheus Aguiar</h1>
     <div>
       <span>Software Developer</span>

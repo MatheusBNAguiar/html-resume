@@ -1,24 +1,26 @@
 <script setup>
+import { curriculumInfo } from '../curriculumInfo';
 import ResumeHeader from './components/ResumeHeader.vue';
+import TimelineItem from './components/TimelineItem.vue';
 </script>
 
 <template>
   <resume-header />
+  <section class="main-section-wrapper">
+    <aside>
+
+    </aside>
+    <main>
+      <timeline-item v-for="workExperience in curriculumInfo?.workExperiences" :title="workExperience.title"
+        :description="workExperience.description" />
+    </main>
+  </section>
 </template>
 
-<style scoped>
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-
-.logo.vue:hover {
-  filter: drop-shadow(0 0 2em #42b883aa);
+<style>
+.main-section-wrapper {
+  padding: 1rem 0;
+  display: grid;
+  grid-template-columns: 1fr 3fr;
 }
 </style>
