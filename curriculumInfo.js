@@ -8,7 +8,7 @@ export const curriculumInfo = {
   "countryName": "Brasil",
   "city": "Florianópolis",
   "email": "matheus.bnaguiar@gmail.com",
-  "profile": "I bring forth high quality organizational skills and a self-motivated drive to achieve excellence with 7 years of experience on my baggage.&nbsp;</p>\n<p>A fast learner that likes to solve problems. Strong skills are in CSS, JavaScript, React, Node.js, GraphQL, Electron, HTML, SCSS, Typescript, Communication, Websites Performance Optimization, AWS, Customer Interaction, Vue.js, Redux, and Web Sockets.&nbsp;</p>\n<p><br>",
+  "profile": "I bring forth high quality organizational skills and a self-motivated drive to achieve excellence with 7 years of experience on my baggage.&nbsp;</p>\n<p>A fast learner that likes to solve problems. Strong skills are in CSS, JavaScript, React, Node.js, GraphQL, Electron, HTML, SCSS, Typescript, Communication, Websites Performance Optimization, AWS, Customer Interaction, Vue.js, Redux, and Web Sockets.&nbsp;</p>\n",
   "workExperiences": [
     {
       "title": "Senior Frontend Developer",
@@ -36,7 +36,6 @@ export const curriculumInfo = {
       "description": "<p>Support in the adaptation of a corporation's white-label system in the Health sector, adapting different business rules to fit into a platform with several laboratories and process formats. In a certain period, I worked on the planning and part of the execution of the product that had micro-frontends to embrace different teams and ways of workingSupport in the adaptation of a corporation's white-label system in the Health sector, adapting different business rules to fit into a platform with several laboratories and process formats. In a certain period, I worked on the planning and part of the execution of the product that had micro-frontends to embrace different teams and ways of working</p>\n<p><strong>Skills:</strong> JavaScript · microfrontend · Front-End Development · Java · React.js</p>",
     },
     {
-      "id": 74209742,
       "title": "Mid Level Front End Developer",
       "employer": "Binamik Tecnologia",
       "city": "Florianópolis",
@@ -95,20 +94,8 @@ export const curriculumInfo = {
       "city": "Florianópolis",
       "dateFrom": "2014-08-01",
       "dateUntil": "2022-10-01",
-      "description": null,
-      "resumeId": 39801130,
-      "createdAt": "2024-02-28T16:41:04.778+01:00",
-      "updatedAt": "2024-02-28T17:08:43.431+01:00",
-      "position": 1,
-      "isMonthUntilHidden": false,
-      "isDateUntilPresent": false,
-      "isMonthFromHidden": false,
-      "faculty": null,
-      "department": null,
-      "cid": null
     }
   ],
-  "courses": [],
   "internships": [
     {
       "id": 7983798,
@@ -117,7 +104,7 @@ export const curriculumInfo = {
       "city": "Florianópolis",
       "dateFrom": "2017-07-01",
       "dateUntil": "2019-02-01",
-      "description": "<p>Worked focused on customer service, maintaining the perfect operation of the system and making visual and experience changes when requested by the client, so keeping he engaged with the company products. <br>\nMain activities:<br>\n• Resolving system and interface bugs, analyzing the source and finding the right way to solve it;<br>\n• Implement new features, visual and user interaction changes, to improve client conversion and increase revenue to the contracting company;<br>\n• Developed a service to collect, manage and pass forward alerts, to task manager, which concerns companies products to diagnose and improvement of processes and internal company systems, as performing a better and quicker diagnosis on critical problems, making this way a quicker solution without turning into a way to increase client engagement;</p>\n<p><br></p>\n<p><strong>Skills:</strong> JavaScript · HTML · Cascading Style Sheets (CSS) · Vue.js</p>",
+      "description": "Worked focused on customer service, maintaining the perfect operation of the system and making visual and experience changes when requested by the client, so keeping he engaged with the company products. <br>\nMain activities:<br>\n• Resolving system and interface bugs, analyzing the source and finding the right way to solve it;<br>\n• Implement new features, visual and user interaction changes, to improve client conversion and increase revenue to the contracting company;<br>\n• Developed a service to collect, manage and pass forward alerts, to task manager, which concerns companies products to diagnose and improvement of processes and internal company systems, as performing a better and quicker diagnosis on critical problems, making this way a quicker solution without turning into a way to increase client engagement;</p>\n<p><strong>Skills:</strong> JavaScript · HTML · Cascading Style Sheets (CSS) · Vue.js",
       "resumeId": 39801130,
       "createdAt": "2024-02-28T16:41:04.894+01:00",
       "updatedAt": "2024-02-28T16:48:38.962+01:00",
