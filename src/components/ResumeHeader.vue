@@ -2,11 +2,6 @@
   <header class="header-wrapper">
     <img class="header-profile-picture" src="../assets/personal-picture.jpeg" width="96" height="96" />
     <h1>Matheus Aguiar</h1>
-    <div>
-      <span>Software Developer</span>
-      <span>Software Developer</span>
-      <span>Software Developer</span>
-    </div>
   </header>
 </template>
 

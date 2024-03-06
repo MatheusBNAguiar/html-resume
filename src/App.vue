@@ -2,6 +2,8 @@
 import { curriculumInfo } from '../curriculumInfo';
 import ResumeHeader from './components/ResumeHeader.vue';
 import TimelineHeader from './components/TimelineHeader.vue';
+import DescriptionWrapper from './components/DescriptionWrapper.vue';
+import DescriptionValue from './components/DescriptionValue.vue';
 import TimelineItem from './components/TimelineItem.vue';
 import { getFormattedDate } from './getFormattedDate';
 </script>
@@ -30,6 +32,32 @@ import { getFormattedDate } from './getFormattedDate';
         :description="internship.description" />
     </main>
     <aside>
+      <description-wrapper title="Details">
+        <description-value>{{ curriculumInfo?.city }}</description-value>
+        <description-value>{{ curriculumInfo?.countryName }}</description-value>
+        <description-value :link="`tel:${curriculumInfo?.phoneNumber}`">
+          {{ curriculumInfo?.phoneNumber }}
+        </description-value>
+        <description-value :link="`mailto:${curriculumInfo?.email}`">{{ curriculumInfo?.email }}</description-value>
+
+      </description-wrapper>
+      <description-wrapper title="Links">
+        <description-value v-for="profile in curriculumInfo?.socialProfiles" :link="profile.link">{{ profile.label
+        }}</description-value>
+      </description-wrapper>
+      <description-wrapper title="Skills">
+        <description-value v-for="skill in curriculumInfo?.skills">{{ skill.skill }}</description-value>
+      </description-wrapper>
+      <description-wrapper title="Hobbies">
+        <description-value v-for="hobby in curriculumInfo?.hobbies?.[0]?.hobby.split('\n')">
+          {{ hobby }}
+        </description-value>
+      </description-wrapper>
+      <description-wrapper title="Languages">
+        <description-value v-for="language in curriculumInfo?.languages">
+          {{ language.language }} - {{ language.level }}
+        </description-value>
+      </description-wrapper>
     </aside>
   </section>
 </template>
@@ -39,5 +67,6 @@ import { getFormattedDate } from './getFormattedDate';
   padding: 1rem 0;
   display: grid;
   grid-template-columns: 4fr 1fr;
+  gap: 2rem;
 }
 </style>

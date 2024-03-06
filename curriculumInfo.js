@@ -41,7 +41,7 @@ export const curriculumInfo = {
       "city": "Florianópolis",
       "dateFrom": "2020-03-01",
       "dateUntil": "2020-11-01",
-
+      description: "<p>Growth of the application focused on the tourism ecosystem. In this step, we focused on expanding the product with new features and products and new integrations, see the development from scratch of service for sending e-mails with integration with SendgridGrowth of the application focused on the tourism ecosystem. In this step, we focused on expanding the product with new features and products and new integrations, see the development from scratch of service for sending e-mails with integration with Sendgrid</p>     <p><strong>Skills:</strong> API Development · Front-End Development · Web Development · React.js · Project Planning · Design Systems · SQL&nbsp;</p>"
     },
     {
       "id": 74209822,
