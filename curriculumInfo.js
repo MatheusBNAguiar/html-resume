@@ -1,211 +1,111 @@
 export const curriculumInfo = {
-  "renderingToken": "Q6zubVJBvrJAy4on9d9b4hVV",
-  "name": "Software Developer",
-  "position": "Software Developer",
-  "firstName": "Matheus",
-  "lastName": "Aguiar",
-  "phoneNumber": "+5548984495096",
-  "countryName": "Brasil",
-  "city": "Florianópolis",
-  "email": "matheus.bnaguiar@gmail.com",
-  "profile": "I bring forth high quality organizational skills and a self-motivated drive to achieve excellence with 7 years of experience on my baggage.&nbsp;</p>\n<p>A fast learner that likes to solve problems. Strong skills are in CSS, JavaScript, React, Node.js, GraphQL, Electron, HTML, SCSS, Typescript, Communication, Websites Performance Optimization, AWS, Customer Interaction, Vue.js, Redux, and Web Sockets.&nbsp;</p>\n",
-  "workExperiences": [
-    {
-      "title": "Senior Frontend Developer",
-      "employer": "Sigma Ratings",
-      "city": "Remote",
-      "dateFrom": "2022-09-01",
-      "dateUntil": "2021-09-01",
-      "description": "<p>Improvement on the application adding many features and migrating the old app to a new look and \"stack\" to guarantee better deliverability and performance.</p>\n<p>Most of the work is focused on Data Visualization, guaranteeing the user that his investigation is clear and with the best insights and also to make his life easier when ingesting his data for investigation.</p>\n<p>Graph Risk Network delivered with the help of Cytoscape</p>\n<p>Led the migration of state management from Redux to Zustand and React Query, streamlining data manipulation and facilitating the implementation of new features.</p>\n<p>Optimized application styles with SCSS Modules, resulting in improved code organization, easier maintenance, and reduced client-side processing load.</p>",
-      "isDateUntilPresent": true,
-    },
-    {
-      "title": "Full Stack Developer",
-      "employer": "Tribe Labs, Inc",
-      "city": "Remote",
-      "dateFrom": "2021-06-01",
-      "dateUntil": "2022-09-01",
-      "description": "<p>Development and design of a product to transform communication between teams, mainly remote teams. <br>\nA good part of my work was in developing the web and desktop application, with React and Electron in its base, using react-native-web to maintain compatibility with the mobile team in most of the interfaces. One of the tasks I had the most fun doing was improving the application's performance through many checks with Profilers and Heap Memory analysis. <br>\nAlso worked on the backend developing a GraphQL API and communication via Websockets, for emission of events and sometimes implemented solutions with AWS products such as S3.Development and design of a product to transform communication between teams, mainly remote teams. A good part of my work was in developing the web and desktop application, with React and Electron in its base, using react-native-web to maintain compatibility with the mobile team in most of the interfaces. One of the tasks I had the most fun doing was improving the application's performance through many checks with Profilers and Heap Memory analysis. Also worked on the backend developing a GraphQL API and communication via Websockets, for emission of events and sometimes implemented solutions with AWS products such as S3.</p>\n<p><strong>Skills:</strong> Nx · Performance Improvement · Amazon Web Services (AWS) · Front-End Development · Electron.js · Monorepo · Web Development · React.js · Front end · GraphQL · SQL</p>",
-    },
-    {
-      "title": "Mid Level Front End Developer",
-      "employer": "Dextra",
-      "city": "Remote",
-      "dateFrom": "2020-10-01",
-      "dateUntil": "2021-06-01",
-      "description": "<p>Support in the adaptation of a corporation's white-label system in the Health sector, adapting different business rules to fit into a platform with several laboratories and process formats. In a certain period, I worked on the planning and part of the execution of the product that had micro-frontends to embrace different teams and ways of workingSupport in the adaptation of a corporation's white-label system in the Health sector, adapting different business rules to fit into a platform with several laboratories and process formats. In a certain period, I worked on the planning and part of the execution of the product that had micro-frontends to embrace different teams and ways of working</p>\n<p><strong>Skills:</strong> JavaScript · microfrontend · Front-End Development · Java · React.js</p>",
-    },
-    {
-      "title": "Mid Level Front End Developer",
-      "employer": "Binamik Tecnologia",
-      "city": "Florianópolis",
-      "dateFrom": "2020-03-01",
-      "dateUntil": "2020-11-01",
-      description: "<p>Growth of the application focused on the tourism ecosystem. In this step, we focused on expanding the product with new features and products and new integrations, see the development from scratch of service for sending e-mails with integration with SendgridGrowth of the application focused on the tourism ecosystem. In this step, we focused on expanding the product with new features and products and new integrations, see the development from scratch of service for sending e-mails with integration with Sendgrid</p>     <p><strong>Skills:</strong> API Development · Front-End Development · Web Development · React.js · Project Planning · Design Systems · SQL&nbsp;</p>"
-    },
-    {
-      "id": 74209822,
-      "title": "Junior Front End Developer",
-      "employer": "Binamik Tecnologia",
-      "city": "Florianópolis",
-      "dateFrom": "2019-09-01",
-      "dateUntil": "2020-03-01",
-      "description": "<p>Start of development of an ecosystem for Tourism. During the period we focused on building the base of the ecosystem, with: <br>\n- Component library for building applications with few couplings with external libraries; <br>\n- Application focused on the initialization of user accounts and cross-platform management; <br>\n- ERP application for managing vacancies and attractions; <br>\n<br>\nAll applications built under a monorepo, for dependency management between applications, and with integration with CI and deploy at Vercel.Start of development of an ecosystem for Tourism. During the period we focused on building the base of the ecosystem, with: - Component library for building applications with few couplings with external libraries; - Application focused on the initialization of user accounts and cross-platform management; - ERP application for managing vacancies and attractions; All applications built under a monorepo, for dependency management between applications, and with integration with CI and deploy at Vercel.</p>\n<p><strong>Skills:</strong> Front-End Development · React.js · Ruby · Node.js · Design Systems</p>",
-    },
-    {
-      "id": 74209905,
-      "title": "Freelance Front End Developer",
-      "employer": "Jungsoft",
-      "city": "Florianópolis",
-      "dateFrom": "2019-07-01",
-      "dateUntil": "2019-09-01",
-      "description": "<p>- Helped on some projects to implement and maintain features</p>\n<p>- The stack was mostly GraphQL, Web Sockets with GraphQL subscriptions, Elixir and React.</p>",
-      "resumeId": 39801130,
-      "position": 6,
-      "isMonthUntilHidden": false,
-      "isDateUntilPresent": false,
-      "isMonthFromHidden": false,
-      "normalizedJobTitleId": null,
-      "reasonForResignation": null,
-      "plannedResignationDate": null,
-      "duration": 2,
-      "department": null,
-      "employmentType": null,
-      "employerProfilesAttributes": {
-        "id": 21891569,
-        "businessType": null,
-        "foundationYear": null,
-        "capital": null,
-        "sales": null,
-        "noOfEmployee": null,
-        "stockListing": null,
-        "resumeWorkExperienceId": 74209905,
-        "position": null
-      },
-      "cid": null
-    }
+  name: 'Matheus Barreto Nunes de Aguiar',
+  tagline: 'Senior Frontend Developer | React, Data Visualization, Accessibility (WCAG), Performance & Design Systems',
+  location: 'Florianópolis, Santa Catarina, Brazil',
+  phone: '+55 48 98449-5096',
+  email: 'matheus.bnaguiar@gmail.com',
+  linkedin: {
+    label: 'linkedin.com/in/matheusbnaguiar',
+    url: 'https://www.linkedin.com/in/matheusbnaguiar/',
+  },
+  github: {
+    label: 'GitHub',
+    url: 'https://github.com/MatheusBNAguiar',
+  },
+  profile:
+    'Senior Frontend Developer with 8+ years of experience building complex web applications and user-facing products. ' +
+    'Experienced in React, data visualization, accessibility, design systems, performance optimization, and full-stack integrations. ' +
+    'Comfortable investigating production issues, collaborating with customers and cross-functional teams, and improving product experiences ' +
+    'through clear, practical solutions.',
+  coreSkills: [
+    { category: 'Frontend', skills: ['React', 'JavaScript', 'HTML', 'CSS/SCSS', 'Vue.js', 'Electron'] },
+    { category: 'Data & State', skills: ['React Query', 'Redux', 'Zustand', 'GraphQL', 'WebSockets'] },
+    { category: 'Product & UX', skills: ['Accessibility (WCAG)', 'Design Systems', 'Data Visualization', 'Cytoscape', 'Ant Design'] },
+    { category: 'Platform & Quality', skills: ['Node.js', 'AWS S3', 'Vercel', 'Monorepos', 'Cypress', 'Performance Profiling'] },
   ],
-  "educations": [
+  experience: [
     {
-      "id": 52419949,
-      "school": "UFSC",
-      "degree": "Control and Automation Engineer",
-      "level": null,
-      "city": "Florianópolis",
-      "dateFrom": "2014-08-01",
-      "dateUntil": "2022-10-01",
-    }
+      role: 'Senior Frontend Developer',
+      company: 'Sigma Ratings',
+      location: 'Remote',
+      period: 'Aug 2022 – Present',
+      bullets: [
+        'Lead frontend work for data-investigation and visualization workflows, helping users explore complex information and derive clearer insights.',
+        'Led technical migrations that supported product growth while reducing code complexity and improving maintainability.',
+        'Develop and evolve design-system capabilities, including light and dark modes and accessibility improvements aligned with WCAG guidelines.',
+        'Built graph-based risk-network visualizations using Cytoscape and improved performance and state-management architecture.',
+      ],
+    },
+    {
+      role: 'Full-Stack Developer',
+      company: 'Tribe Labs, Inc.',
+      location: 'Remote',
+      period: 'May 2021 – Aug 2022',
+      bullets: [
+        'Built web and desktop experiences for a remote-team communication product using React, Electron, and react-native-web.',
+        'Investigated performance bottlenecks with profilers and heap-memory analysis, improving application responsiveness and stability.',
+        'Developed backend functionality including a GraphQL API, WebSocket-based events, and AWS S3 integrations in a monorepo environment.',
+      ],
+    },
+    {
+      role: 'Mid-Level Frontend Developer',
+      company: 'Binamik Tecnologia',
+      location: 'Florianópolis',
+      period: 'Feb 2020 – Oct 2020',
+      bullets: [
+        'Expanded a tourism-platform ecosystem through new product features, integrations, frontend development, and design-system work.',
+        'Developed an email-sending service integrated with SendGrid to support product communication workflows.',
+      ],
+    },
+    {
+      role: 'Junior Frontend Developer',
+      company: 'Binamik Tecnologia',
+      location: 'Florianópolis',
+      period: 'Aug 2019 – Feb 2020',
+      bullets: [
+        'Helped build the foundation for a tourism-product ecosystem: a reusable component library, account-management application, and ERP for vacancies and attractions.',
+        'Worked in a monorepo architecture with shared dependencies, CI, and Vercel deployments using React, Node.js, Ruby, and design-system practices.',
+      ],
+    },
+    {
+      role: 'Frontend Engineering Intern',
+      company: 'Chaordic / Linx',
+      location: 'Florianópolis',
+      period: 'Jun 2017 – Jan 2019',
+      bullets: [
+        'Investigated and resolved customer-facing system and interface issues by analyzing source code and identifying root causes.',
+        'Implemented UI and product improvements requested by customers to improve usability and engagement.',
+        'Built an alert-routing service that collected Prometheus alerts and forwarded actionable issues to Asana, improving diagnosis of critical problems and reducing client complaints.',
+      ],
+    },
   ],
-  "internships": [
+  additionalExperience: [
     {
-      "id": 7983798,
-      "title": "Front End Internship",
-      "employer": "Chaordic/Linx",
-      "city": "Florianópolis",
-      "dateFrom": "2017-07-01",
-      "dateUntil": "2019-02-01",
-      "description": "Worked focused on customer service, maintaining the perfect operation of the system and making visual and experience changes when requested by the client, so keeping he engaged with the company products. <br>\nMain activities:<br>\n• Resolving system and interface bugs, analyzing the source and finding the right way to solve it;<br>\n• Implement new features, visual and user interaction changes, to improve client conversion and increase revenue to the contracting company;<br>\n• Developed a service to collect, manage and pass forward alerts, to task manager, which concerns companies products to diagnose and improvement of processes and internal company systems, as performing a better and quicker diagnosis on critical problems, making this way a quicker solution without turning into a way to increase client engagement;</p>\n<p><strong>Skills:</strong> JavaScript · HTML · Cascading Style Sheets (CSS) · Vue.js",
-      "resumeId": 39801130,
-      "createdAt": "2024-02-28T16:41:04.894+01:00",
-      "updatedAt": "2024-02-28T16:48:38.962+01:00",
-      "position": 1,
-      "isMonthUntilHidden": false,
-      "isDateUntilPresent": false,
-      "isMonthFromHidden": false,
-      "cid": null
+      role: 'CTO',
+      company: 'Gestão Base',
+      location: 'Florianópolis',
+      period: 'Jun 2018 – Jan 2020',
+      bullets: [
+        'Worked on a startup focused on a product for controling finances for companies mixed with financial advisory services.'
+      ],
     },
     {
-      "id": 7983865,
-      "title": "President / Marketing Director / Marketing Staff",
-      "employer": "Autojun(Junior Enterprise)",
-      "city": null,
-      "dateFrom": "2014-12-01",
-      "dateUntil": null,
-      "description": "<p>Where I started my career as a developer and did many other things too. As Autojun is a junior enterprise, a company inside the university for making projects to help the community at low budgets, I was able to experience a bunch of areas.</p>\n<p>Worked at marketing, did a lot of manager tasks and from there I started to init on some web projects, mostly PHP applications.</p>",
-      "resumeId": 39801130,
-      "createdAt": "2024-02-28T16:48:41.224+01:00",
-      "updatedAt": "2024-02-28T16:52:27.368+01:00",
-      "position": 2,
-      "isMonthUntilHidden": false,
-      "isDateUntilPresent": false,
-      "isMonthFromHidden": false,
-      "cid": null
-    }
+      role: 'Teaching Assistant, Fundamentals of Data Structures',
+      company: 'UFSC',
+      location: '',
+      period: '2015',
+      bullets: ['Supported students with data structures, Big O notation, and object-oriented programming.'],
+    },
   ],
-  "skills": [
-    {
-      "skill": "CSS",
-    },
-    {
-      "skill": "Javascript",
-    },
-    {
-      "skill": "HTML/CSS",
-    },
-    {
-      "skill": "Node",
-    },
-    {
-      "skill": "Vue.js",
-    },
-    {
-      "skill": "React",
-    },
-    {
-      "skill": "SCSS",
-    },
-    {
-      "skill": "Redux and Zustand",
-    },
-    {
-      "skill": "GraphQL",
-    },
-    {
-      "skill": "Web Sockets",
-    },
-    {
-      "skill": "Electron",
-    },
-    {
-      "skill": "E Commerce",
-    },
-    {
-      "skill": "Performance Profiling",
-    },
-    {
-      "skill": "AWS S3",
-    }
+  education: {
+    degree: 'Control and Automation Engineering',
+    school: 'Federal University of Santa Catarina (UFSC)',
+    location: 'Florianópolis',
+    period: '2014 – 2022',
+  },
+  languages: [
+    { language: 'Portuguese', level: 'Native' },
+    { language: 'English', level: 'Advanced' },
+    { language: 'Spanish', level: 'Basic' },
   ],
-  "languages": [
-    {
-      "language": "Portuguese",
-      "level": 'Native'
-    },
-    {
-      "language": "English",
-      "level": 'Advanced'
-
-    },
-    {
-      "language": "Spanish",
-      "level": 'Basic'
-    }
-  ],
-  "hobbies": [
-    {
-      "hobby": "Taking care of my dogs\nRunning and Ciclying\nHaving adventures with my girlfriend, friends and family",
-    }
-  ],
-  "references": [],
-  "socialProfiles": [
-    {
-      "label": "Github",
-      "link": "https://github.com/MatheusBNAguiar/aoc-2023",
-    },
-    {
-      "label": "LinkedIn",
-      "link": "https://www.linkedin.com/in/matheusbnaguiar/",
-    }
-  ],
-  "score": 110
 };
